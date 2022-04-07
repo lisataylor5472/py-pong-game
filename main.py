@@ -34,8 +34,7 @@ ball.goto(0,0)
 ball.dx = 0.5 # moves by 2px
 ball.dy = 0.5 # moves by 2px
 
-# Function
-
+# Game Functions
 def paddle_a_up():
     y = paddle_a.ycor()
     y += 20
